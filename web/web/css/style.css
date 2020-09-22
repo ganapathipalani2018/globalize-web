@@ -5249,14 +5249,23 @@ img {
 
 .services-section-two {
     position: relative;
-    overflow: hidden;
     padding-bottom: 70px;
     background-color: #f6f6f6;
 }
 
+.services-section-content {
+    padding: 0 148px;
+}
+
 .services-section-two .logo-warter-mark {
-    float: right;
     margin-top: -111px;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.services-section-two .auto-container .sec-title {
+    margin-top: -210px;
 }
 
 .service-block-two .inner-box .icon-box {
@@ -6787,6 +6796,7 @@ img {
     padding: 250px 0px 0px;
     /* background-color: #0e0a31; */
     background-image: linear-gradient(149deg, #124d7a 14%, #0d95f7 85%);
+    z-index: 1;
 }
 
 .banner-section-three {
