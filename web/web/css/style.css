@@ -497,11 +497,10 @@ img {
     position: relative;
     display: inline-block;
     font-size: 14px;
-    line-height: 30px;
     color: #104572;
     border: solid 1px #f6b90d;
     background-color: #fff;
-    padding: 7px 28px;
+    padding: 5px 15px;
     font-weight: 500;
     overflow: hidden;
     border-radius: 3px;
@@ -5247,6 +5246,13 @@ img {
 
 ***/
 
+.service-block-two .icon-box {
+    position: absolute;
+    top: 37.3px;
+    left: -25px;
+    z-index: 1;
+}
+
 .services-section-two {
     position: relative;
     padding-bottom: 70px;
@@ -5262,6 +5268,13 @@ img {
     display: block;
     width: 100%;
     text-align: right;
+}
+
+.about-section .dots-warter-mark {
+    margin-top: -111px;
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 
 .services-section-two .auto-container .sec-title {
@@ -5331,9 +5344,16 @@ img {
 .service-block-two .inner-box {
     position: relative;
     overflow: hidden;
-    padding: 45px 45px;
+    padding: 42px 72px;
     border-radius: 10px;
     background-color: #ffffff;
+    margin-right: 34px;
+    height: 100%;
+}
+
+.service-block-two:nth-child(2) .inner-box,
+.service-block-two:nth-child(4) .inner-box {
+    margin-right: 0;
 }
 
 .service-block-two .inner-box .shape-one {
@@ -5437,7 +5457,7 @@ img {
     font-weight: 400;
     font-size: 26px;
     line-height: 1.3em;
-    margin: 20px 0px 15px;
+    margin: 0 0 15px;
     font-family: Larsseit;
 }
 
